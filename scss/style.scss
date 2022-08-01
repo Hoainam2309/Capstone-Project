@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background: #FFFFFF;
+}
+
+$text-c1-dark: #000000;
+$text-c1-white: #FFFFFF;
+//text-size
+$text-xs: 10px;
+$text-base: 13px;
+$text-xl: 18px;
+$text-2xl: 20px;
+$text-3xl: 30px;
+$text-4xl: 40px;
+$text-5xl: 50px;
+$text-6xl: 60px;
+//text-fontweight
+$text-light: 300;
+$text-regular: 400;
+$text-semibold: 600;
+$text-bold: 700;
+
+@mixin text($fz, $fw, $c) {
+    color: $c;
+    font-size: $fz;
+    font-weight: $fw;
+}
+
+.header {
+    box-sizing: border-box;
+    position: relative;
+    height: 50px;
+    background: $text-c1-dark;
+    border: 1px solid $text-c1-dark;
+
+    .container {
+        .content-left {
+            a {
+                img {
+                    position: absolute;
+                    width: 116px;
+                    height: 32px;
+                    left: 24px;
+                    top: 10px;
+                }
+            }
+        }
+
+        .content-right {
+
+            .cr-img {
+                position: absolute;
+                padding-left: 1027px;
+                top: 15%;
+                bottom: 5.56%;
+            }
+
+            .cr-number {
+                position: absolute;
+                padding-left: 1058px;
+                top: 12%;
+                color: $text-c1-white;
+                font-size: $text-3xl;
+                font-weight: $text-light;
+            }
+
+            .cr-text1 {
+                position: absolute;
+                width: 91px;
+                height: 32px;
+                padding-left: 1103px;
+                top: 15px;
+                color: $text-c1-white;
+                text-decoration: none;
+                font-weight: $text-light;
+            }
+
+            .cr-text2 {
+                position: absolute;
+                width: 90px;
+                height: 32px;
+                padding-left: 1170px;
+                top: 15px;
+                color: $text-c1-white;
+                text-decoration: none;
+                font-weight: $text-light;
+            }
+
+        }
+    }
+}
+
+.menu {
+
+    .nav-bar {
+        padding-top: 16px;
+    }
+
+    .nav-home {
+        text-decoration: none;
+        padding-left: 25px;
+        color: $text-c1-dark;
+        font-weight: $text-regular;
+
+    }
+
+    a {
+        text-decoration: none;
+        padding-left: 25px;
+        color: $text-c1-dark;
+        font-weight: $text-light;
+
+    }
+
+}
+
+//register
+.register-content {
+    .container {
+        h2 {
+            text-align: center;
+        }
+
+        .register-input {
+            display: flex;
+            justify-content: space-between;
+
+            .left-input {
+                padding-left: 100px;
+                input {
+                    padding-top: 30px;
+                    border: none;
+                    border-bottom: 4px solid violet;
+                    width: 388px;
+                    
+                }
+            }
+
+            .right-input {
+                padding-right: 350px;
+                input {
+                    border: none;
+                    padding-top: 30px;
+                    border-bottom: 4px solid violet;
+                    
+                }
+                
+
+                .radio-input {
+                    display: block;
+                    padding-top: 30px;
+
+                }
+                .btn {
+                    padding-top: 20px;
+                    button {
+                        padding-top: 12px;
+                        padding-bottom: 12px;
+                        padding-left: 87.3px;
+                        padding-right: 98.94px;
+                        background-color: #AE18E2;
+                        border: none;
+                        @include text ($text-3xl, $text-regular , $text-c1-white);
+                        line-height: 36px;
+                    }
+                }
+            }
+        }
+    }
+}
+//carousel 
+.carousel {
+    background-image: url(../img/image\ 6.png);
+    .carousel-left {
+      
+    }
+    .carousel-right {
+
+    }
+}
+
+.footer {
+   .bg-img {
+    background-image: url(../img/image7.png);
+   }
+  
+ 
+}

@@ -1,0 +1,24 @@
+//text-color
+$text-c1-dark: #000000;
+$text-c1-white: #FFFFFF;
+
+//text-size
+$text-xs: 10px;
+$text-base: 13px;
+$text-xl: 18px;
+$text-2xl: 20px;
+$text-3xl: 30px;
+$text-4xl: 40px;
+$text-5xl: 50px;
+$text-6xl: 60px;
+//text-fontweight
+$text-light: 300;
+$text-regular: 400;
+$text-semibold: 600;
+$text-bold: 700;
+
+@mixin text($fz, $fw, $c) {
+    color: $c;
+    font-size: $fz;
+    font-weight: $fw;
+}

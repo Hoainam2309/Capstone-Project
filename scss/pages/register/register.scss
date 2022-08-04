@@ -1,0 +1,56 @@
+@import '../../base/base';
+@import '../../themes/variable';
+//register
+.register-content {
+    .container {
+        h2 {
+            text-align: center;
+        }
+
+        .register-input {
+            display: flex;
+            justify-content: space-between;
+
+            .left-input {
+                padding-left: 100px;
+                input {
+                    padding-top: 30px;
+                    border: none;
+                    border-bottom: 4px solid violet;
+                    width: 388px;
+                    
+                }
+            }
+
+            .right-input {
+                padding-right: 350px;
+                input {
+                    border: none;
+                    padding-top: 30px;
+                    border-bottom: 4px solid violet;
+                    
+                }
+                
+
+                .radio-input {
+                    display: block;
+                    padding-top: 30px;
+
+                }
+                .btn {
+                    padding-top: 20px;
+                    button {
+                        padding-top: 12px;
+                        padding-bottom: 12px;
+                        padding-left: 87.3px;
+                        padding-right: 98.94px;
+                        background-color: #AE18E2;
+                        border: none;
+                        @include text ($text-3xl, $text-regular , $text-c1-white);
+                        line-height: 36px;
+                    }
+                }
+            }
+        }
+    }
+}

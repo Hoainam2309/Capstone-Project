@@ -153,7 +153,7 @@
 .product-feature .container .row .col {
   width: 30%;
   height: 369px;
-  margin: 20px 20px;
+  margin: 25px 20px;
   background-color: #F8F8F8;
 }
 .product-feature .container .row .col .card img {
@@ -209,62 +209,4 @@
 
 .footer .bg-img {
   background-image: url(../img/image7.png);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-}
-
-.container {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 15px;
-  background: #FFFFFF;
-}
-
-.register-content .container h2 {
-  text-align: center;
-}
-.register-content .container .register-input {
-  display: flex;
-  justify-content: space-between;
-}
-.register-content .container .register-input .left-input {
-  padding-left: 100px;
-}
-.register-content .container .register-input .left-input input {
-  padding-top: 30px;
-  border: none;
-  border-bottom: 4px solid violet;
-  width: 388px;
-}
-.register-content .container .register-input .right-input {
-  padding-right: 350px;
-}
-.register-content .container .register-input .right-input input {
-  border: none;
-  padding-top: 30px;
-  border-bottom: 4px solid violet;
-}
-.register-content .container .register-input .right-input .radio-input {
-  display: block;
-  padding-top: 30px;
-}
-.register-content .container .register-input .right-input .btn {
-  padding-top: 20px;
-}
-.register-content .container .register-input .right-input .btn button {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 87.3px;
-  padding-right: 98.94px;
-  background-color: #AE18E2;
-  border: none;
-  color: #FFFFFF;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 36px;
 }

@@ -1,0 +1,147 @@
+@import '../../base/base';
+@import '../../themes/variable';
+
+.header {
+    box-sizing: border-box;
+    position: relative;
+    height: 50px;
+    background: $text-c1-dark;
+    border: 1px solid $text-c1-dark;
+
+    .container {
+        .content-left {
+            a {
+                img {
+                    position: absolute;
+                    width: 116px;
+                    height: 32px;
+                    left: 24px;
+                    top: 10px;
+                }
+            }
+        }
+
+        .content-right {
+
+            .cr-img {
+                position: absolute;
+                padding-left: 1027px;
+                top: 15%;
+                bottom: 5.56%;
+            }
+
+            .cr-number {
+                position: absolute;
+                padding-left: 1058px;
+                top: 12%;
+                color: $text-c1-white;
+                font-size: $text-3xl;
+                font-weight: $text-light;
+            }
+
+            .cr-text1 {
+                position: absolute;
+                width: 91px;
+                height: 32px;
+                padding-left: 1103px;
+                top: 15px;
+                color: $text-c1-white;
+                text-decoration: none;
+                font-weight: $text-light;
+            }
+
+            .cr-text2 {
+                position: absolute;
+                width: 90px;
+                height: 32px;
+                padding-left: 1170px;
+                top: 15px;
+                color: $text-c1-white;
+                text-decoration: none;
+                font-weight: $text-light;
+            }
+
+        }
+    }
+}
+
+.menu {
+
+    .nav-bar {
+        padding-top: 16px;
+    }
+
+    .nav-home {
+        text-decoration: none;
+        padding-left: 25px;
+        color: $text-c1-dark;
+        font-weight: $text-regular;
+
+    }
+
+    a {
+        text-decoration: none;
+        padding-left: 25px;
+        color: $text-c1-dark;
+        font-weight: $text-light;
+
+    }
+
+}
+
+//register
+.register {
+    .container {
+        position: relative;
+        height: 535px;
+        .title-register {
+            h3 {
+                
+            }
+        }
+
+        .infor-register {
+            .user-detail {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .left-infor {
+                    .input-box {
+
+                        input {}
+                    }
+                }
+
+                .right-infor {
+                    .input-box {
+                        input {}
+                    }
+                }
+
+                .gender-detail {
+                    .gender-title {}
+
+                    #gender {
+                        .male {
+                            input{
+
+                            }
+                            .gender {}
+
+                        }
+                        .female {
+                            input {
+
+                            }
+                            .gender {
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+

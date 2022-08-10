@@ -1,0 +1,243 @@
+@import '../../base/base';
+@import '../../themes/variable';
+
+.header {
+    box-sizing: border-box;
+    position: relative;
+    height: 50px;
+    background: $text-c1-dark;
+    border: 1px solid $text-c1-dark;
+
+    .container {
+        .content-left {
+            a {
+                img {
+                    position: absolute;
+                    width: 116px;
+                    height: 32px;
+                    left: 24px;
+                    top: 10px;
+                }
+            }
+        }
+
+        .content-right {
+
+            .cr-img {
+                position: absolute;
+                padding-left: 1027px;
+                top: 15%;
+                bottom: 5.56%;
+            }
+
+            .cr-number {
+                position: absolute;
+                padding-left: 1058px;
+                top: 12%;
+                color: $text-c1-white;
+                font-size: $text-3xl;
+                font-weight: $text-light;
+            }
+
+            .cr-text1 {
+                position: absolute;
+                width: 91px;
+                height: 32px;
+                padding-left: 1103px;
+                top: 15px;
+                color: $text-c1-white;
+                text-decoration: none;
+                font-weight: $text-light;
+            }
+
+            .cr-text2 {
+                position: absolute;
+                width: 90px;
+                height: 32px;
+                padding-left: 1170px;
+                top: 15px;
+                color: $text-c1-white;
+                text-decoration: none;
+                font-weight: $text-light;
+            }
+
+        }
+    }
+}
+
+.menu {
+
+    .nav-bar {
+        padding-top: 16px;
+    }
+
+    .nav-home {
+        text-decoration: none;
+        padding-left: 25px;
+        color: $text-c1-dark;
+        font-weight: $text-regular;
+
+    }
+
+    a {
+        text-decoration: none;
+        padding-left: 25px;
+        color: $text-c1-dark;
+        font-weight: $text-light;
+
+    }
+
+}
+
+
+//carousel 
+.carousel {
+    background-image: url(../img/image\ 6.png);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .carousel-left {
+        padding-left: 80px;
+        padding-bottom: 150px;
+        flex: 60%;
+        .carousel-img{
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+    .carousel-right {
+        padding-left: 80px;
+        padding-bottom: 150px;
+        flex: 40%;
+        h3{
+            font-weight: $text-light;
+            font-size: $text-4xl;
+            line-height: 48px;
+            text-align: left;
+            vertical-align: top;
+            color: $text-c1-dark;
+        }
+        p{
+            width: 291px;
+            height: 51px;
+            top: 175px;
+            left: 930px;
+            font-weight: $text-light;
+            font-size: $text-2xl;
+            line-height: 24px;
+            text-align: left;
+            vertical-align: top;
+            color: $text-c1-dark;
+        }
+        button{
+            width: 150px;
+            height: 50px;
+            top: 225px;
+            left: 930px;
+            background-color: #F8B653;
+            font-weight: $text-light;
+            font-size: $text-2xl;
+            line-height: 24px;
+            text-align: center;
+            vertical-align: top;
+            color: $text-c1-white;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+
+//product-feature
+.product-feature{
+    .container{
+        overflow: hidden;
+        .title{
+            font-weight: $text-regular;
+            font-size: $text-4xl;
+            line-height: 48px;
+            vertical-align: top;
+            color: $text-c1-dark;
+            text-align: center;
+            padding: 25px 0;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            // margin-left: 100px;
+            // margin-top: 50px;
+            .col{
+                width: 30%;
+                height: 369px;
+                margin: 25px 20px;
+                background-color: #F8F8F8;
+                .card{
+                    img{
+                        width: 100%;
+                    }
+                    .card-body{
+                        .product-name{
+                            font-weight: $text-light;
+                            font-size: 24px;
+                            line-height: 29px;
+                            text-align: left;
+                            vertical-align: top;
+                            color: $text-c1-dark;
+                        }
+                        .product-desc{
+                            font-weight: $text-light;
+                            font-size: $text-2xl;
+                            line-height: 24px;
+                            text-align: left;
+                            vertical-align: top;
+                            color: #cbc9c9;
+                            margin-bottom: 10px;
+                        }
+                        .card-footer{
+                            display: flex;
+                            align-items: center;
+                            flex-wrap: wrap;
+                            background-color: #DEDDDC;
+                            button{
+                                width: calc(100% / 2);
+                                height: 50px;
+                                top: 225px;
+                                left: 930px;
+                                background-color: #F8B653;
+                                font-weight: $text-light;
+                                font-size: $text-2xl;
+                                line-height: 24px;
+                                text-align: center;
+                                vertical-align: top;
+                                color: $text-c1-dark;
+                                border: none;
+                                cursor: pointer;
+                            }
+                            p{
+                                width: calc(100% / 2);
+                                font-style: $text-semibold;
+                                font-size: 24px;
+                                line-height: 29px;
+                                text-align: center;
+                                vertical-align: top;
+                                color: $text-c1-dark;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.footer {
+   .bg-img {
+    background-image: url(../img/image7.png);
+   }
+  
+ 
+}
